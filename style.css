@@ -6,8 +6,15 @@
     --rosso: #cd3d0f;
     --biancos: #d9dadc;
     --white:#fff;
-}
 
+}
+section{
+    margin-bottom: 20px ;
+}
+img{
+    max-width: 100%;
+    
+}
 .white{
     background-color: var(--white);
 }
@@ -27,6 +34,8 @@
 #hero{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    
     
 }
 .btnrosso{
@@ -44,4 +53,27 @@
 .pt{
    margin-top: 170px;
    padding-bottom: 30px;
+}
+.card{
+    max-width: 14rem;
+    padding: 12px;
+    
+}
+.btnblu{
+    background-color: var(--azzurro);
+    border-radius: 20px;
+    border: 1px solid var(--azzurro);
+    width: 180px;
+    margin-bottom: 50px;
+    padding: 5px;
+    color: var(--white);
+    text-align: center;
+}
+#jumbo{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jumbo img{
+    width: 40%;
 }
