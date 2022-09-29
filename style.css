@@ -1,0 +1,34 @@
+:root{
+    --nero: #1f1f1f;
+    --azzurro: #3a6de7;
+    --grigio: #bebcbb;
+    --blu: #161c3b;
+    --rosso: #cd3d0f;
+    --biancos: #d9dadc;
+    --white:#fff;
+}
+
+.white{
+    background-color: var(--white);
+}
+.nero{
+    background-color: var(--nero);
+}
+.biancos{
+   color: var(--biancos);
+}
+#sony{
+
+}
+#playlogo{
+    height: 50px;
+    width: 50px;
+}
+#sony{
+    width: 60px;
+}
+#hero{
+    background-image: url(./img/returnal-listing-thumb-01-ps5.jpg);
+    max-width: 100%;
+    height: 200px;
+}
