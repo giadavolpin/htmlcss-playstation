@@ -17,9 +17,6 @@
 .biancos{
    color: var(--biancos);
 }
-#sony{
-
-}
 #playlogo{
     height: 50px;
     width: 50px;
@@ -28,7 +25,23 @@
     width: 60px;
 }
 #hero{
-    background-image: url(./img/returnal-listing-thumb-01-ps5.jpg);
-    max-width: 100%;
-    height: 200px;
+    background-image: url(./img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.btnrosso{
+    background-color: var(--rosso);
+    border-radius: 20px;
+    border: 1px solid var(--rosso);
+    width: 120px;
+    margin-bottom: 50px;
+    padding: 5px;
+    color: var(--white);
+}
+.cwhite{
+    color: var(--white);
+}
+.pt{
+   margin-top: 170px;
+   padding-bottom: 30px;
 }
