@@ -6,14 +6,14 @@
     --rosso: #cd3d0f;
     --biancos: #d9dadc;
     --white:#fff;
-
+    --footer: rgb(0, 67, 156);
 }
 section{
     margin-bottom: 20px ;
 }
 img{
     max-width: 100%;
-    padding: ;
+    padding: 10px;
 }
 .white{
     background-color: var(--white);
@@ -31,12 +31,10 @@ img{
 #sony{
     width: 60px;
 }
-#hero{
+#hero{ /* problemi con foto non mi prende quello che voglio io */
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+    background-size: cover; 
 }
 .btnrosso{
     background-color: var(--rosso);
@@ -76,6 +74,7 @@ img{
     color: var(--white);
     text-align: center;
 }
+
 #jumbo{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
@@ -92,9 +91,7 @@ img{
     background-color: var(--grigio);
     padding-bottom: 8px;
 }
-#esplora img{
-    
-}
+
 .btnbiancos{
     color: var(--azzurro);
     background-color: var(--biancos);
@@ -105,4 +102,36 @@ img{
     padding: 5px;
     text-align: center;
     margin-left: 5px;
+}
+#sconti img{
+    padding: 20px;
+}
+#play-now{
+    background-color: var(--blu);
+    color: var(--white);
+    padding-bottom: 45px;
+}
+.btnwhite{
+    color: var(--blu);
+    background-color: var(--white);
+    border-radius: 20px;
+    border: 1px solid var(--white);
+    width: 180px;
+    margin-bottom: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 5px;
+}
+#social{
+
+}
+footer{
+    background-color: var(--footer);
+    color: var(--white);
+}
+footer .dime{
+    width: 40%;
+}
+li{
+    list-style-type: none;
 }
