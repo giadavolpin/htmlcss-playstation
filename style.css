@@ -62,6 +62,10 @@ img{
     max-width: 14rem;
     border-color: transparent;
     border-radius: 20px;
+    margin: 0px;
+}
+.card img{
+    
 }
 #nuove-uscite .card{
     max-width: 14rem;
