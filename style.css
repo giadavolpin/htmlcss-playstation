@@ -51,9 +51,9 @@ img{
     color: var(--white);
 }
 .pt{
-   margin-top: 170px;
-   padding-bottom: 30px;
-   width: 280px;
+    padding-bottom: 30px; 
+    margin-top: 170px;
+    width: 280px;
 }
 #cards{
     margin-top: 15px;
@@ -115,7 +115,7 @@ img{
     margin-left: 5px;
 }
 #sconti img{
-    padding: 20px;
+   
 }
 #play-now{
     background-color: var(--blu);
@@ -139,8 +139,9 @@ footer{
     background-color: var(--footer);
     color: var(--white);
 }
-footer .dime{
-    width: 40%;
+.dime{
+    width: 25%;
+
 }
 li{
     list-style-type: none;
@@ -154,4 +155,13 @@ li{
     .pt{
         width: 370px;
     }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #social .card{
+        width: 100%;
+        /* sistemare qui */
+    }
+    .pt{
+        width: 500px;
+
 }
