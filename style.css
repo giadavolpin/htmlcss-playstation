@@ -13,7 +13,7 @@ section{
 }
 img{
     max-width: 100%;
-    
+    padding: ;
 }
 .white{
     background-color: var(--white);
@@ -54,11 +54,18 @@ img{
    margin-top: 170px;
    padding-bottom: 30px;
 }
-.card{
+#cards .card {
     max-width: 14rem;
     padding: 12px;
-    
+    border-color: transparent;
 }
+#nuove-uscite .card{
+    max-width: 14rem;
+    padding: 12px;
+    border-color: transparent;
+    background-color: var(--nero);
+}
+
 .btnblu{
     background-color: var(--azzurro);
     border-radius: 20px;
@@ -76,4 +83,26 @@ img{
 }
 #jumbo img{
     width: 40%;
+}
+#nuove-uscite{
+    background-color: var(--nero);
+    color: var(--white);
+}
+#esplora{
+    background-color: var(--grigio);
+    padding-bottom: 8px;
+}
+#esplora img{
+    
+}
+.btnbiancos{
+    color: var(--azzurro);
+    background-color: var(--biancos);
+    border-radius: 20px;
+    border: 1px solid var(--biancos);
+    width: 180px;
+    margin-bottom: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 5px;
 }
