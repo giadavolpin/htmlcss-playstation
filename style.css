@@ -8,9 +8,7 @@
     --white:#fff;
     --footer: rgb(0, 67, 156);
 }
-section{
-    margin-bottom: 20px ;
-}
+
 img{
     max-width: 100%;
     padding: 10px;
@@ -24,6 +22,9 @@ img{
 .biancos{
    color: var(--biancos);
 }
+.azzurro{
+    color: var(--azzurro);
+}
 #playlogo{
     height: 50px;
     width: 50px;
@@ -31,8 +32,9 @@ img{
 #sony{
     width: 60px;
 }
-#hero{ /* problemi con foto non mi prende quello che voglio io */
+#hero{ 
     background-image: url(./img/jumbo-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -41,7 +43,7 @@ img{
     border-radius: 20px;
     border: 1px solid var(--rosso);
     width: 120px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding: 5px;
     color: var(--white);
 }
@@ -51,11 +53,15 @@ img{
 .pt{
    margin-top: 170px;
    padding-bottom: 30px;
+   width: 280px;
+}
+#cards{
+    margin-top: 15px;
 }
 #cards .card {
     max-width: 14rem;
-    padding: 12px;
     border-color: transparent;
+    border-radius: 20px;
 }
 #nuove-uscite .card{
     max-width: 14rem;
@@ -73,6 +79,7 @@ img{
     padding: 5px;
     color: var(--white);
     text-align: center;
+    margin-top: 5px; /* non me lo prende */
 }
 
 #jumbo{
@@ -109,7 +116,6 @@ img{
 #play-now{
     background-color: var(--blu);
     color: var(--white);
-    padding-bottom: 45px;
 }
 .btnwhite{
     color: var(--blu);
@@ -117,13 +123,13 @@ img{
     border-radius: 20px;
     border: 1px solid var(--white);
     width: 180px;
-    margin-bottom: 50px;
     padding: 5px;
     text-align: center;
-    margin-left: 5px;
 }
-#social{
-
+#social img{
+    width: 200px;
+    height: 200px;
+    border-color: transparent;
 }
 footer{
     background-color: var(--footer);
@@ -134,4 +140,14 @@ footer .dime{
 }
 li{
     list-style-type: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #social .card{
+        width: 150px;
+        height: 150px;
+    }
+    .pt{
+        width: 370px;
+    }
 }
